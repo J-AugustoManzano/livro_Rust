@@ -1,0 +1,6 @@
+[package]
+name = "c03Exer1G"
+version = "0.1.0"
+authors = ["Manzano"]
+
+[dependencies]
