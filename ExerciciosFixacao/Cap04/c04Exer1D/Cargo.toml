@@ -1,0 +1,6 @@
+[package]
+name = "c04Exer1D"
+version = "0.1.0"
+authors = ["Manzano"]
+
+[dependencies]
