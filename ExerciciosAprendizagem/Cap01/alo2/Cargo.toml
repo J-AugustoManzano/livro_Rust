@@ -1,6 +1,0 @@
-[package]
-name = "alo2"
-version = "0.1.0"
-authors = ["Manzano"]
-
-[dependencies]
