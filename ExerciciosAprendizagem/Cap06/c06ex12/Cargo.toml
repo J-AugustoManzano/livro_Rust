@@ -1,0 +1,10 @@
+[package]
+name = "c06ex12"
+version = "0.1.0"
+authors = ["Manzano"]
+
+[dependencies]
+
+[lib]
+name = "ecralib"
+path = "src/ecra.rs"
