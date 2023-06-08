@@ -1,0 +1,7 @@
+[package]
+name = "c09ex38"
+version = "0.1.0"
+authors = ["Manzano"]
+
+[dependencies]
+cipher-crypt = "^0.8"

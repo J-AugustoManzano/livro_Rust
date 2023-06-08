@@ -1,0 +1,7 @@
+[package]
+name = "c09ex39"
+version = "0.1.0"
+authors = ["Manzano"]
+
+[dependencies]
+rust-crypto = "^0.2"
