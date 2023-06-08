@@ -1,0 +1,6 @@
+[package]
+name = "c05Exer4A"
+version = "0.1.0"
+authors = ["Manzano"]
+
+[dependencies]

@@ -1,0 +1,38 @@
+use std::io;
+use std::io::prelude::*;
+
+fn potencia(b: u64, e: u64) -> u64 {
+    let mut p: u64 = 1;
+    for i in 1 .. e + 1 {
+        p *= b;
+    }
+    return p;
+}
+
+fn main() {    
+
+    let mut base = String::new();
+    let mut expo = String::new();
+
+    let bas: u64;
+    let exp: u64;
+    
+    let resp = potencia;
+ 
+    print!("Entre o valor da base ......: ");
+    io::stdout().flush().unwrap();
+    io::stdin().read_line(&mut base).unwrap();
+    bas = base.trim().parse::<u64>().unwrap();
+ 
+    print!("Entre o valor da expoente ..: ");
+    io::stdout().flush().unwrap();
+    io::stdin().read_line(&mut expo).unwrap();
+    exp = expo.trim().parse::<u64>().unwrap();
+
+    println!("Resultado = {}", resp(bas, exp));  
+
+    println!();
+    print!("Tecle <Enter> para encerrar...");
+    io::stdout().flush().unwrap();
+    io::stdin().read(&mut [0u8]).unwrap();
+}
